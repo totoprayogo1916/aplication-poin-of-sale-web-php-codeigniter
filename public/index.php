@@ -56,7 +56,7 @@ if (! is_file($envFile)) {
 	echo "Please create an .env file from the provided example in .env.txt as none was found.";
 }
 
-Dotenv::createUnsafeImmutable($envFile)->load();
+Dotenv::createImmutable($envFile)->load();
 
 /*
  *---------------------------------------------------------------

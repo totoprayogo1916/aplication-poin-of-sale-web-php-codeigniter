@@ -6,6 +6,6 @@
 		"fakerphp/faker": "^1.19"
 	},
 	"require-dev": {
-		"robmorgan/phinx": "^0.14.0"
+		"robmorgan/phinx": "^0.16.2"
 	}
 }
